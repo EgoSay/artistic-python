@@ -1,6 +1,6 @@
 # The Programming art in python 🐍
 
-## 前言
+## Introduction📖
 > There are many beautiful usage in python, such as:
 > - [The Function-Programming](#python中的函数)
 > - [The Design Patterns]()
@@ -8,7 +8,7 @@
 > - [Control process]()
 > - [Concurrent Processing]()
 > - [Metaprogramming]()
-> - [Regular expression](#Regular expression(正则表达式))
+> - [Regular expression](#正则表达式)
 ## python中的函数
 #### 在 Python 中，函数是一等对象。
 
@@ -26,4 +26,4 @@
 
 ## 面向对象编程
 
-## Regular expression(正则表达式)
+## 正则表达式
