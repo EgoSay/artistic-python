@@ -29,6 +29,9 @@
 Python 3 中， map 和 filter 还是内置函数，但是可以用列表推导和生成器表达式替换
 
 - [可调用类型](first_class_function/callable_type_examples.ipynb)
+
+- [参数处理](first_class_function/parameter_processing.ipynb)
+    >Python 最好的特性之一是提供了极为灵活的参数处理机制
 ## 面向对象编程
 
 ## 正则表达式
