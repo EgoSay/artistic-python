@@ -32,6 +32,10 @@ Python 3 中， map 和 filter 还是内置函数，但是可以用列表推导�
 
 - [参数处理](first_class_function/parameter_processing.ipynb)
     >Python 最好的特性之一是提供了极为灵活的参数处理机制
+    
+#### [函数装饰器与闭包](function_decorator_and_closure/function_decorator_and_closure.md)
+>装饰器本质上是python函数，它可以使其他函数在不需要做代码变动的情况下增加新的功能，装饰器返回值也是一个函数对象<p>
+>类比[装饰器模式](https://www.runoob.com/design-pattern/decorator-pattern.html)
 ## 面向对象编程
 
 ## 正则表达式
