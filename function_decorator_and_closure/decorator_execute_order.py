@@ -4,27 +4,26 @@
 # @Email   : adairchan.dream@gmail.com
 # @Date    : 2019/9/19 下午3:37
 # @IDE     : PyCharm
-import function_decorator_and_closure.decorator_registration as registration
-from function_decorator_and_closure.decorator_registration import decorator
+from function_decorator_and_closure.wrapper import test_order as decorator
 
 
 @decorator
 def f1():
-    print("running f1()")
+    print("running f1().........")
 
 
 @decorator
 def f2():
-    print("running f2()")
+    print("running f2().........")
 
 
 def f3():
-    print("running f3()")
+    print("running f3().........")
 
 
 def main():
-    print("running main()")
-    print("registry ->", registration.registry)
+    print("running main()..........")
+    # print("registry ->", wrapper.registry)
     f1()
     f2()
     f3()
