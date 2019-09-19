@@ -4,14 +4,8 @@
 # @Email   : adairchan.dream@gmail.com
 # @Date    : 2019/9/19 下午3:37
 # @IDE     : PyCharm
-
-registry = list()
-
-
-def decorator(func):
-    print("execute decorator(%s)"%func)
-    registry.append(func)
-    return func
+import function_decorator_and_closure.decorator_registration as registration
+from function_decorator_and_closure.decorator_registration import decorator
 
 
 @decorator
@@ -30,7 +24,7 @@ def f3():
 
 def main():
     print("running main()")
-    print("registry ->", registry)
+    print("registry ->", registration.registry)
     f1()
     f2()
     f3()
