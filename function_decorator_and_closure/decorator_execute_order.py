@@ -4,6 +4,7 @@
 # @Email   : adairchan.dream@gmail.com
 # @Date    : 2019/9/19 下午3:37
 # @IDE     : PyCharm
+import function_decorator_and_closure.wrapper as wrapper
 from function_decorator_and_closure.wrapper import test_order as decorator
 
 
@@ -23,21 +24,23 @@ def f3():
 
 def main():
     print("running main()..........")
-    # print("registry ->", wrapper.registry)
+    print("registry ->", wrapper.registry)
     f1()
     f2()
     f3()
+    print("registry ->", wrapper.registry)
 
 
 if __name__ == '__main__':
-    """
-    执行顺序：函数装饰器在导入模块时立即执行，而被装饰的函数只在明确调用时运行
-        execute decorator(<function f1 at 0x107403d90>)
-        execute decorator(<function f2 at 0x1074038c8>)
-        running main()
-        registry -> [<function f1 at 0x107403d90>, <function f2 at 0x1074038c8>]
-        running f1()
-        running f2()
-        running f3()
-    """
+
     main()
+    """输出结果:
+        execute decorator(<function f1 at 0x1015271e0>)
+        execute decorator(<function f2 at 0x10c370950>)
+        running main()..........
+        registry -> []
+        running f1().........
+        running f2().........
+        running f3().........
+        registry -> [<function f1 at 0x1015271e0>, <function f2 at 0x10c370950>]
+    """

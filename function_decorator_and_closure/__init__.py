@@ -5,5 +5,5 @@
 # @Date    : 2019/9/19 上午11:13
 # @IDE     : PyCharm
 
-import function_decorator_and_closure.decorator_execute_order
+# import function_decorator_and_closure.decorator_execute_order
 
