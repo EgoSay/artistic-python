@@ -14,6 +14,7 @@
 >    4. 子类中普通成员变量和代码块，子类的构造函数
 >```  
 
-#### 利用装饰器还可以实现 "策略模式" 
-    
+#### 利用装饰器还可以实现 "策略模式"
+> 参考：[python实现策略模式](https://www.jianshu.com/p/e535d23dab0e) <p>
+> [示例代码](strategy_mode_with_decorator.py)  
    
