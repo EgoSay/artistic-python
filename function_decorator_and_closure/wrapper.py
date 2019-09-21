@@ -25,15 +25,6 @@ def test_order(func):
     return wrapper
 
 
-# def test_order2(func):
-#     """
-#     验证装饰器执行顺序
-#     :param func:
-#     :return: a wrapper function
-#     """
-#     print("execute decorator(%s)" % func)
-#     registry.append(func)
-#     return func
 
 
 
