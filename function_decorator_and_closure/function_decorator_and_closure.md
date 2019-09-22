@@ -18,3 +18,6 @@
 > 参考：[python实现策略模式](https://www.jianshu.com/p/e535d23dab0e) <p>
 > [示例代码](strategy_mode_with_decorator.py)  
    
+#### 变量作用域与规则
+>Python不要求声明变量， 但是在函数定义体中赋值的变量会识别为局部变量<p>
+>[Demo]()
