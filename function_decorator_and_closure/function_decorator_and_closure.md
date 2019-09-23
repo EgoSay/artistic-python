@@ -23,7 +23,7 @@
 >[Demo](variable_scope_demo.py)
 
 #### 闭包
->闭包指延伸了作用域的函数，其中包含函数定义体中引用、但是不在定义体中定义的非全局变量
+>闭包指延伸了作用域的函数，其中包含函数定义体中引用、但是不在定义体中定义的非全局变量<p>
 我的理解：[示例](closure_learning.ipynb)
 >1. 首先它本质是一个函数<p>
 >2. 这个函数引用了其他地方的变量， 这个变量在它函数内部没有定义且不是全局变量<p>
@@ -32,3 +32,4 @@
 >参考链接: <p>
 >1. [深入浅出python闭包](https://zhuanlan.zhihu.com/p/22229197)
 >2. [python中的闭包](https://www.the5fire.com/closure-in-python.html)
+
