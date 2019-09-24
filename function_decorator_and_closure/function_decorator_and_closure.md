@@ -18,11 +18,11 @@
 > 参考：[python实现策略模式](https://www.jianshu.com/p/e535d23dab0e) <p>
 > [示例代码](strategy_mode_with_decorator.py)  
    
-#### 变量作用域与规则
+### 变量作用域与规则
 >Python不要求声明变量， 但是在函数定义体中赋值的变量会识别为局部变量<p>
 >[Demo](variable_scope_demo.py)
 
-#### 闭包
+### 闭包
 >闭包指延伸了作用域的函数，其中包含函数定义体中引用、但是不在定义体中定义的非全局变量<p>
 我的理解：[示例](closure_learning.ipynb)
 >1. 首先它本质是一个函数<p>
@@ -32,4 +32,13 @@
 >参考链接: <p>
 >1. [深入浅出python闭包](https://zhuanlan.zhihu.com/p/22229197)
 >2. [python中的闭包](https://www.the5fire.com/closure-in-python.html)
+
+### 标准库中的装饰器
+>`functools.lru_cache`: 它把耗时的函数的结果保存起来，避免传入相同的参数时重复计算, 用于优化<p>
+>[示例代码：优化斐波纳切数列的计算过程](lru_cache_example.py)
+
+>`functools.singledispatch`:使用 `@singledispatch` 装饰的普通函数会变成泛函数 `generic function` : 根据第一个参数的类型，以不同方式执行相同操作的一组函
+数<p>
+>[示例代码](singledispatch_example.py)
+
 
