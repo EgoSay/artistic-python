@@ -42,3 +42,7 @@
 >[示例代码](singledispatch_example.py)
 
 
+### Github上发现一个大神关于装饰器的仓库: [wrapt](https://github.com/GrahamDumpleton/wrapt)
+
+
+
