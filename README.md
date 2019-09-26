@@ -45,3 +45,4 @@ Python 3 中， map 和 filter 还是内置函数，但是可以用列表推导�
 - [learn-regex](https://github.com/ziishaned/learn-regex)
 
 ## 数据分析
+[Python数据分析实践](https://github.com/EgoSay/Data-Analysis)
