@@ -5,3 +5,5 @@
 >示例：`variables_in_python.ipynb`
 ### [浅复制和深复制](../copy_principle.ipynb)
 >示例：`copy_principle.ipynb`
+### [参数引用](../parameter_reference.ipynb)
+>示例： `parameter_reference.ipynb`
