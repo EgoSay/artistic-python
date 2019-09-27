@@ -1,9 +1,19 @@
-
-### 强烈推荐一个可视化工具网站：http://pythontutor.com
->通过交互式的动画形象地展示对象引用间的关系变化
-### [Python中的变量](../variables_in_python.ipynb)
->示例：`variables_in_python.ipynb`
-### [浅复制和深复制](../copy_principle.ipynb)
->示例：`copy_principle.ipynb`
-### [参数引用](../parameter_reference.ipynb)
->示例： `parameter_reference.ipynb`
+## 对象引用
+>每个`Python`对象都有标识、类型和值, 只有对象的值会不时变化
+1. ### 强烈推荐一个可视化工具网站：http://pythontutor.com
+    >通过交互式的动画形象地展示对象引用间的关系变化
+2. ### [Python中的变量](../variables_in_python.ipynb)
+    >示例：`variables_in_python.ipynb`
+3. ### [浅复制和深复制](../copy_principle.ipynb)
+    >示例：`copy_principle.ipynb`
+4. ### [参数引用](../parameter_reference.ipynb)
+    >示例： `parameter_reference.ipynb`
+    
+5. ### 总结
+    >1. 简单的赋值不创建副本<p>
+    >2. 对 += 或 *= 所做的增量赋值来说，如果左边的变量绑定的是不可变对象，会创建新对象；如果是可变对象，会就地修改<p>
+    >3. 为现有的变量赋予新值, 不会修改之前绑定的变量, 这叫重新绑定：现在变量绑定了其他对象。
+        如果变量是之前那个对象的最后一个引用，对象会被当作垃圾回收<p>
+    >4. 函数的参数以别名的形式传递，这意味着，函数可能会修改通过参数传入的可变对象。
+        这一行为无法避免，除非在本地创建副本，或者使用不可变对象（例如，传入元组，而不传入列表）
+    >5. 使用可变类型作为函数参数的默认值有危险，因为如果就地修改了参数，默认值也就变了，这会影响以后使用默认值的调用。
