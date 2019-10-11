@@ -9,9 +9,12 @@ import math
 
 
 class Vector2d:
+
+    """typecode 是类属性，在 Vector2d 实例和字节序列之间转换时使用"""
     typecode = 'd'
 
     def __init__(self, x, y):
+        """在 __init__ 方法中把 x 和 y 转换成浮点数，尽早捕获错误，以防调用 Vector2d 函数时传入不当参数"""
         self.__x = float(x)
         self.__y = float(y)
 
@@ -25,9 +28,12 @@ class Vector2d:
         return self.__y
 
     def __iter__(self):
+        """定义 __iter__ 方法，把 Vector2d 实例变成可迭代的对象，这样才能拆包（例如， x, y = my_vector）"""
         return (i for i in (self.x, self.y))
 
     def __repr__(self):
+        """__repr__ 方法使用 {!r} 获取各个分量的表示形式，然后插值，构成一个字符串；
+        因为Vector2d 实例是可迭代的对象，所以 *self 会把 x 和 y 分量提供给 format 函数"""
         class_name = type(self).__name__
         return '{}({!r}, {!r})'.format(class_name, *self)
 
@@ -35,6 +41,7 @@ class Vector2d:
         return str(tuple(self))
 
     def __bytes__(self):
+        """把 typecode 转换成字节序列"""
         return (bytes([ord(self.typecode)]) +
                 bytes(array(self.typecode, self)))
 
