@@ -8,4 +8,5 @@
 out
 gen
 .idea/
-/first_class_function/.ipynb_checkpoints/
+**/.ipynb_checkpoints
+**/__init__.py

@@ -39,7 +39,7 @@ Python 3 中， map 和 filter 还是内置函数，但是可以用列表推导�
 >类比[装饰器模式](https://www.runoob.com/design-pattern/decorator-pattern.html)
 ## 面向对象编程
 - #### [对象引用](object_oriented_programming/docs/object_reference.md)
-- #### [符合`Python` 风格的对象]()
+- #### [序列的修改、散列和切片]()
 
 ## 正则表达式
 - [learn-regex](https://github.com/ziishaned/learn-regex)
