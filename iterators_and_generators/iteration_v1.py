@@ -30,6 +30,9 @@ class Example1:
 if __name__ == '__main__':
     e1 = Example1("hello world, i use 'python'、'Java', it's beautiful ")
     print(e1)
-    """测试这个类示例可以迭代"""
+    print("-------------测试这个类示例可以迭代-----------")
     for word in e1:
         print(word)
+
+    """因为同时也是序列, 可以按索引打印输出"""
+    print("e1[1] = %s" % e1[1])
